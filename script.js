@@ -14,7 +14,7 @@ let products = [];
 productForm.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    const product = {
+Add a check to ensure the element exists before proceeding.
         name: document.getElementById('productName').value,
         price: parseFloat(document.getElementById('productPrice').value),
         quality: parseInt(document.getElementById('productQuality').value),
